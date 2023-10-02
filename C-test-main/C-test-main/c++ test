@@ -1,0 +1,27 @@
+
+
+#include<iostream>
+using namespace std;
+int main(){
+
+	
+	float B,P,C,total,avg,perc;
+	cout<<"\nEnter Biology marks =: ";
+		cin>>B;
+	cout<<"\nEnter Phycics marks =: ";
+		cin>>P;
+	cout<<"\nEnter chemistry marks =: ";
+		cin>>C;
+
+		total=B+P+C;
+		avg=total/3;
+		perc=(total/(3*100))*100;
+
+	cout<<"\nTotal Mark : "<<total;
+	cout<<"\nAvarage Mark : "<<avg;
+	cout<<"\nPresentage of Marks : "<<perc<<"%";	
+
+	cout<<endl;
+	return 0;
+
+}

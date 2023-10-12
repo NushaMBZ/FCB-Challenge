@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 using namespace std;
 int main(){
@@ -10,7 +8,7 @@ int main(){
 		cin>>B;
 	cout<<"\nEnter Phycics marks =: ";
 		cin>>P;
-	cout<<"\nEnter chemistry marks =: ";
+	cout<<"\nEnter Chemistry marks =: ";
 		cin>>C;
 
 		total=B+P+C;
